@@ -1,0 +1,97 @@
+/* First the direct tags of html */
+a:link {
+    text-decoration:dashed;
+    background-color: rgb(0, 26, 255);
+ 
+ }
+ 
+ a:visited {
+     text-decoration:dashed;
+     background-color: rgb(0, 255, 0);
+  
+  }
+ 
+  a:hover  {
+     text-decoration:dashed;
+     background-color: rgb(255, 51, 0);
+  
+  }
+ 
+  a:active  {
+     text-decoration:dashed;
+     background-color: rgb(247, 0, 255);
+  
+  }
+
+  a:link {
+   text-decoration:dashed;
+   background-color: rgb(0, 26, 255);
+
+}
+
+a:visited {
+    text-decoration:dashed;
+    background-color: rgb(0, 255, 0);
+ 
+ }
+
+ a:hover  {
+    text-decoration:dashed;
+    background-color: rgb(255, 51, 0);
+ 
+ }
+
+ a:active  {
+    text-decoration:dashed;
+    background-color: rgb(247, 0, 255);
+ 
+ }
+
+ /* Second we will treat the ID's, we will be using them for the titles */
+#title-recipes
+{
+    background-color:grey;
+    color:yellow;
+}
+#title-ingredients
+{
+    background-color: aqua;
+    color:darkgreen;
+    font-weight: bold;
+}
+
+#title-steps
+{
+    background-color: rgb(51, 61, 199);
+    color:rgb(202, 202, 202);
+    font-weight: bold;   
+}
+
+/* Third we configure the classes, we will use them to define general concepts such as unordered lists elements */
+.present-food
+{
+    height:300px;
+    width:auto;
+}
+
+.unordered-list-1 {
+    list-style: square;
+
+}
+.unordered-list-1 li {
+    color:blue;
+    font-size: 25px;   
+    margin-bottom: 5px;
+}
+
+.ordered-list-1 {
+    list-style:lower-roman;
+}
+
+.ordered-list-1 li {
+    color:brown;
+    margin-bottom: 5px;
+}
+
+
+/* and here be dragons */
